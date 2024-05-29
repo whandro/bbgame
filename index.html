@@ -6,15 +6,22 @@
     <title>Bee Game</title>
     <style>
         body {
+            margin: 0;
+            overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
-            background-color: #f0f0f0;
+            background: #333;
+            display: flex;
         }
         canvas {
-            border: 1px solid black;
+            background: url('bg.jpg');
+            background-size: cover;
+            width: 800px;
+            height: 600px;
+            max-width: 100vw;
+            max-height: 100vh;
         }
     </style>
 </head>
